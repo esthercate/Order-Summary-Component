@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.8em;
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+.container {
+    text-align: center;
+    margin: 2.5em;
+    background-color: white;
+    border-radius: 1.25em;
+    padding-bottom: 1.8em;
+}
+
+img {
+    width: 100%;
+    border-radius: 1.25em 1.25em 0 0;
+}
+
+.main h2  {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  align-content: center;
+  padding-top: 20px;
+}
+
+.main p {
+    color: hsl(224, 23%, 55%);
+    padding: 0 1.5em 0 1.5em;
+}
+
+.annual-plan {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 5em;
+    background-color: hsl(225, 100%, 98%);
+    margin: 1.2em;
+    border-radius: 12px;
+    padding: .5em;
+    line-height: 8px;
+    
+}
+
+.music-icon {
+width: 50px;
+height: 50px;
+}
+
+.annual-plan strong {
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan a {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-left: 10px;
+
+}
+
+.annual-plan a:hover {
+    text-decoration: none;
+    color: #6960EC;
+}
+
+.payment-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.625em;
+    height: 3em;
+    width: 90%;
+    cursor: pointer;
+    margin-bottom: 1.8em;
+    box-shadow: 0 18px 30px -7px rgb(197, 189, 245);
+}
+
+.payment-btn:hover {
+    background-color: #6960EC;
+}
+
+.cancel-order {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
+.cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (min-width: 500px) {
+
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    font-size: 1em;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.main p {
+    padding: 0 4em 0 4em;
+}
+
+.annual-plan a {
+    margin-left: 20px;
+    
+}
+
+.attribution { margin-top: 20px; }
+
+}
