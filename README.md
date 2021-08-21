@@ -31,8 +31,8 @@ You can find the solution screenshots for both desktop and mobile under Finished
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/esthercate/Order-Summary-Component)
+- Live Site URL: [Add live site URL here](https://esthercate.github.io/Order-Summary-Component/)
 
 ## My process
 
